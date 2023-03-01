@@ -1,0 +1,79 @@
+baseURL: https://devnet.engineering/
+languageCode: en-us
+title: DevNet.Engineering
+theme : "hugo-coder"
+languagecode : "en"
+defaultcontentlanguage : "en"
+
+
+paginate : 20
+
+pygmentsstyle : "bw"
+pygmentscodefences : true
+pygmentscodefencesguesssyntax : true
+
+params:
+  author : "DevNet.Engineering"
+  info : "Learn Coding as a Network Engineer"
+  description : "Learn Coding as a Network Engineer"
+  keywords : "devnet, Network Automation, ansible, python, jinja2"
+  # avatarurl : "images/avatar.jpg"
+  # gravatar : "john.doe@example.com"
+
+  favicon_32 : "/img/favicon-32x32.png"
+  favicon_16 : "/img/favicon-16x16.png"
+
+  since : 2023
+
+  enableTwemoji : true
+
+  colorScheme : "auto"
+  hidecolorschemetoggle : false
+
+  # customCSS : "css/custom.css":
+  # customSCSS : "scss/custom.scss":
+  # customJS : "js/custom.js":
+  # Social links
+  social:
+    - name : "Github"
+      icon : "fa fa-github fa-2x"
+      weight : 1
+      url : "https://github.com/iproute-net/"
+    - name : "Twitter"
+      icon : "fa fa-twitter fa-2x"
+      weight : 2
+      url : "https://twitter.com/iproutenet/"
+    - name : "Youtube"
+      icon : "fa fa-youtube fa-2x"
+      weight : 3
+      url : "https://youtube.com/@devnetengineering"
+    - name : "Email"
+      icon : "fa fa-envelope fa-2x"
+      weight : 4
+      url : "mailto:keyvan@devnet.engineering"
+taxonomies:
+  category : "categories"
+  series : "series"
+  tag : "tags"
+  author : "authors"
+
+
+# Menu links
+menu: 
+  main:
+    - identifier: about
+      name : "About"
+      weight : 1
+      url : "about/"
+    - identifier: blog
+      name : "Blog"
+      weight : 2
+      url  : "posts/"
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 3
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 4
